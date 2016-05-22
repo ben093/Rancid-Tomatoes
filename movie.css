@@ -1,0 +1,128 @@
+/**************\ 
+CSC 365
+Fall 2014
+\**************/
+body{
+	background:url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+	font: 8px Verdana, Tahoma, sans-serif;
+	margin:0;
+}
+dd{
+	margin-left:3em;
+	margin-bottom:10pt;
+}
+dl{
+	background-color:#A2B964;
+}
+dd ul{
+	list-style-type: none;
+	margin:0;
+	padding:0px;
+}
+dt{
+	font-weight:bold;
+}
+.authorBox{
+	clear:left;
+	font-style:italic;
+	margin-bottom:20pt;
+	overflow:auto;
+}
+.authorBox img{
+	float:left;
+}
+.column {
+	float: left;
+	margin-left: 2%;
+	width: 47%;
+}
+.comments{ /* Said its only going to be graded in Chrome? */
+	-webkit-column-count: 2;
+	-webkit-column-gap: 2%;
+	-webkit-column-width: 47%;
+}
+.entries{
+	background-color:#A2B964;
+	bottom:0px;
+	padding:5px;
+	position: absolute;
+	margin:0 auto;
+	z-index:-1;
+	text-align:center;
+	width:800px;
+}
+.header{
+	background-image: url('http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png');
+    background-repeat: repeat-x;
+	overflow:hidden;
+	text-align:center;
+}
+.headerTitle{
+	background:url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png");
+	background-repeat:repeat-x;
+	font-size:2em;
+	height:82px;
+	overflow:hidden;
+	/*margin:10px;*/
+}
+.headerTitle h1{
+	color:red;
+	display:inline;
+	font-size: 48px;
+}
+.headerTitle img{
+	vertical-align:bottom;
+}
+.movieInfo{
+	background-color:#A2B964;
+	display: block;
+	float:right;
+	font: 8pt Arial, sans-serif;
+	margin: 0 auto;
+	width:250px;
+}
+.movieInfo dl{
+	padding-left:10px;
+	padding-right:3px;
+}
+.movieInfo img{
+	text-align:right;
+	margin: 0px;
+}
+.page{
+	border:4px solid gray;
+	border-radius: 20px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:0px;
+	position:relative;
+	width:800px;
+}
+.quoteBox{
+	background-color:#E8DC9B;
+	border:2px solid gray;
+	border-radius:10px;
+	font-size: 8px;
+	font-weight: bold;
+	margin:8px;
+	overflow:auto;
+	padding:8px;
+}
+.quoteBox img{
+	float:left;
+	padding: 5px;
+}
+.title{
+	font: 24pt bold Tahoma, Verdana, sans-serif;
+	text-align:center;
+	text-shadow: 3px 3px #999999;
+}
+.validators{
+	bottom: 0;
+	opacity: 0.5;
+	position:fixed;
+    right: 0;
+}
+#reviews {
+	width: 550px;
+}
